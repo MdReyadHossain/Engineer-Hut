@@ -255,6 +255,7 @@ const Orders = () => {
                             </tbody>
                         </table>
                     </div>
+                    {/* pagination */}
                     <div className='mt-4 text-end mr-1'>
                         <nav className="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
                             <a
