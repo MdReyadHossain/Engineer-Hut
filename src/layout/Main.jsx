@@ -1,14 +1,12 @@
 import Sidebar from "../components/dashboard/sidebar/Sidebar";
-import Orders from "../components/orders/order";
-import OrderDetails from "../components/orders/orderDetails";
+import Orders from "../pages/order/order";
+import OrderDetails from "../pages/order/orderDetails";
 
 const Main = () => {
     return (
         <>
             <div>
                 <Sidebar />
-                <Orders />
-                <OrderDetails />
             </div>
         </>
     );

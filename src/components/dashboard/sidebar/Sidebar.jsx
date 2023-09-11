@@ -158,7 +158,7 @@ const Sidebar = () => {
             </div>
 
             {/* layout part */}
-            <div className="flex-1 bg-[#dff9fb]">
+            <div className="flex-1">
                 <Navbar />
 
                 {/* here all the component will display */}
