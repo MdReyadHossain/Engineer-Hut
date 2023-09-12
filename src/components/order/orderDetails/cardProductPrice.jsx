@@ -40,6 +40,7 @@ const CardProductPrice = () => {
                         </tr>
                     </thead>
                     <tbody className="bg-slate-300">
+                        {/* list of products */}
                         <tr className='even:bg-white odd:bg-slate-200'>
                             <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4">
                                 <img src={product1} alt="product" style={{ height: "45px", width: "45px", borderRadius: "10px" }} />

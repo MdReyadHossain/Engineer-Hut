@@ -26,6 +26,7 @@ const Orders = () => {
                         </div>
                     </div>
 
+                    {/* table of orders */}
                     <CardOrderList />
 
                     {/* pagination */}
