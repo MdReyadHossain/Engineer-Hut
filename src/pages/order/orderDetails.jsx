@@ -1,8 +1,5 @@
 import React from "react";
-
 import HeadingOrder from "../../components/order/header/heading";
-import product1 from "../../assets/img/product-1.jpg";
-import product2 from "../../assets/img/product-2.jpg";
 import CardProductPrice from "../../components/order/orderDetails/cardProductPrice";
 import CardTransaction from "../../components/order/orderDetails/cardTansaction";
 import CardBalance from "../../components/order/orderDetails/cardBalance";
@@ -24,8 +21,8 @@ const OrderDetails = () => {
                         <div className="space-y-2">
                             <span className="text-slate-500 mr-2">August 23, 2023 at 4:14 pm / 3 items / Total $1012</span>
                             <div className="lg:inline-block">
-                                <button className='px-5 py-1 rounded-md bg-red-200 text-red-500'>Paid</button>
-                                <button className='px-5 py-1 mx-2 rounded-md bg-green-200 text-green-600'>Partially Fulfilled</button>
+                                <button className='px-4 py-1 rounded-md bg-red-200 text-red-500'>Paid</button>
+                                <button className='px-4 py-1 mx-1 rounded-md bg-green-200 text-green-600'>Partially Fulfilled</button>
                             </div>
                         </div>
                     </div>

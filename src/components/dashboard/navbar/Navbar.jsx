@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import { FaBell, FaMoon } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 import avater from "../../../assets/img/avater.png";
 import styles from "./Navbar.module.css";
 
@@ -21,7 +20,7 @@ const Navbar = () => {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="px-2 py-1 rounded-l bg-gray-200 text-gray-800 focus:border-none focus:outline-none w-8/12"
+                  className="px-2 py-1 rounded-l bg-gray-200 text-gray-800 focus:border-none focus:outline-none w-1/2 md:w-8/12"
                 />
                 <button
                   type="submit"
@@ -34,7 +33,7 @@ const Navbar = () => {
           </div>
 
           {/* <!-- Right elements --> */}
-          <div className="relative flex items-center space-x-3">
+          <div className="relative flex items-center justify-end space-x-3 w-1/2 md:w-2/5">
             {/* <!-- Bell  --> */}
             <div className="relative">
               {/* <!-- Bell icon --> */}
@@ -52,19 +51,14 @@ const Navbar = () => {
             </div>
 
             {/* <!-- small avater--> */}
-            <div className="relative">
-              <Link
-                className="hidden-arrow flex items-center whitespace-nowrap transition duration-150 ease-in-out motion-reduce:transition-none"
-                to="#"
-              >
-                {/* <!-- User avatar --> */}
-                <img
-                  src={avater}
-                  className="rounded-full object-cover"
-                  style={{ height: "25px", width: "25px" }}
-                  alt="avater"
-                />
-              </Link>
+            <div>
+              {/* <!-- User avatar --> */}
+              <img
+                src={avater}
+                className="object-cover w-8 h-8 md:w-6 md:h-6"
+                style={{ borderRadius: "50%" }}
+                alt="avater"
+              />
             </div>
           </div>
         </div>

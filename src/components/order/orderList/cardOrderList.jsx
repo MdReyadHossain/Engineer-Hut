@@ -4,7 +4,7 @@ import { AiOutlineEdit, AiOutlineDelete } from "react-icons/ai";
 const CardOrderList = () => {
     return (
         <React.Fragment>
-            <div className="block w-full overflow-x-auto overflow-y-scroll h-5/6">
+            <div className="block w-full overflow-x-auto overflow-y-scroll element-with-scrollbar h-5/6">
                 {/* Order table */}
                 <table className="items-center w-full border-collapse">
                     <thead className=''>

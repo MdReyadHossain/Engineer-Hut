@@ -1,11 +1,11 @@
 import React from 'react';
-import product1 from "../../../assets/img/product-1.jpg";
-import product2 from "../../../assets/img/product-2.jpg";
+import product1 from "../../../assets/img/products/product-1.jpg";
+import product2 from "../../../assets/img/products/product-2.jpg";
 
 const CardProductPrice = () => {
     return (
         <React.Fragment>
-            <div className="my-4 w-full lg:w-1/2 overflow-x-auto overflow-y-scroll h-5/6" id="product-details">
+            <div className="my-4 w-full lg:w-1/2 overflow-x-auto overflow-y-scroll element-with-scrollbar h-5/6" id="product-details">
                 <table className="items-center w-full border-collapse">
                     <thead className=''>
                         <tr className='bg-slate-300'>

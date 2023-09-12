@@ -13,7 +13,7 @@ const CardBilling = () => {
                             <th
                                 colSpan={2}
                                 className={
-                                    "px-6 align-middle border border-solid py-5 text-sm uppercase border-l-0 border-r-0 text-left text-gray-900 font-bold border-gray-100"
+                                    "px-6 align-middle border border-solid py-5 text-xs lg:text-sm uppercase border-l-0 border-r-0 text-left text-gray-900 font-bold border-gray-100"
                                 }
                             >
                                 Billing Address
@@ -22,7 +22,7 @@ const CardBilling = () => {
                     </thead>
                     <tbody className="bg-slate-300">
                         <tr className='bg-slate-50'>
-                            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-md p-4 space-y-2">
+                            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 p-4 space-y-2 text-xs lg:text-sm">
                                 <p className="text-slate-500"><span className='inline-block text-indigo-500'><AiFillPhone /></span> +880 1957755775</p>
                                 <p className="text-slate-500"><span className='inline-block text-indigo-500'><ImLocation /></span> Block-C, Bashundhara R/A, Dhaka-1229, Bangladesh</p>
                                 <p className="text-slate-500"><span className='inline-block text-indigo-500'><HiMailOpen /></span> alexsmith@gmail.com</p>

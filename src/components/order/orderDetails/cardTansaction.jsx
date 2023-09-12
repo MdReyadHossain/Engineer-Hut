@@ -3,7 +3,7 @@ import React from 'react';
 const CardTransaction = () => {
     return (
         <React.Fragment>
-            <div className="overflow-x-auto overflow-y-scroll mb-2" id="Transaction-details">
+            <div className="overflow-x-auto overflow-y-scroll element-with-scrollbar mb-2" id="Transaction-details">
                 <table className="items-center w-full border-collapse">
                     <thead className=''>
                         <tr className='bg-slate-300'>
