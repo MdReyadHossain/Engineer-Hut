@@ -6,12 +6,14 @@ const CardPagination = () => {
         <React.Fragment>
             <div className='mt-4 text-end mr-1'>
                 <nav className="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
+                    {/* left arrow "<" */}
                     <a
                         href="#"
                         className="relative inline-flex items-center rounded-sm px-2 py-2 text-gray-400 ring-1 ring-inset focus:z-20 focus:outline-offset-0 hover:bg-indigo-600 hover:text-white"
                     >
                         <IoIosArrowBack className="h-5 w-5" aria-hidden="true" />
                     </a>
+                    {/* page numbers start */}
                     <a
                         href="#"
                         aria-current="page"
@@ -25,6 +27,9 @@ const CardPagination = () => {
                     >
                         2
                     </a>
+                    {/* page numbers end */}
+
+                    {/* right arrow ">" */}
                     <a
                         href="#"
                         className="relative inline-flex items-center rounded-sm px-2 py-2 text-gray-400 ring-1 ring-inset focus:z-20 focus:outline-offset-0 hover:bg-indigo-600 hover:text-white"
