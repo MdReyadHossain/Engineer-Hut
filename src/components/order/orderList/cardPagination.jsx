@@ -37,7 +37,7 @@ const CardPagination = () => {
                         <IoIosArrowForward className="h-5 w-5" aria-hidden="true" />
                     </a>
                 </nav>
-            </div>
+            </div>            
         </React.Fragment>
     );
 };
